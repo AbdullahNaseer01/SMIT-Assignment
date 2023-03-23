@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+  <title>Home Page</title>
+  <script>
+    window.onload = function() {
+      const fullName = getCookie("fullName");
+      const welcomeMessage = document.getElementById("welcome-message");
+      welcomeMessage.innerHTML = "Welcome " + fullName;
+    }
+    
+    function getCookie(name) {
+      const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+      return cookieValue ? cookieValue.pop() : null;
+    }
+  </script>
+</head>
+<body>
+    <main class="home">
+    <div class="container-center">
+  <h1 id="welcome-message"></h1>
+  <a href="index.html">Back to Login</a>
+</div>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>

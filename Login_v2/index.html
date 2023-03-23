@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<!-- font Awesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-26">
+						ADMIN LOGIN
+					</span>
+					<div  class="wrap-input100 validate-input" data-validate = "Name">
+						<input id="fullname" class="input100" type="text" name="fullname" placeholder="Full Name">
+						<span class="btn-show-pass">
+							<i class="fa-solid fa-user"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						<input id="email" class="input100" type="text" name="email" placeholder="Email">
+						<span class="btn-show-pass">
+							<i class="fa-solid fa-envelope"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="fa-solid fa-lock"></i>
+						</span>
+						<input id="password" class="input100" type="password" name="pass" placeholder="Password">
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" onclick="login(event)">
+								Login
+							</button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-115">
+						<span class="txt1">
+							demo mail: admin@gmail.com & password: 12345
+						</span>
+
+						<!-- <a class="txt2" href="#">
+							Sign Up
+						</a> -->
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- <div id="dropDownSelect1"></div> -->
+	<script src="script.js"></script>
+</body>
+</html>
