@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+      <nav>
+
+        <h2>EasyGrowth</h2>
+
+
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Découvrir</a></li>
+            <li><a href="#">Offres</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <button type="button" class="connection">Se connecter</button>
+
+
+
+        <div class="hamburger-menu">
+          <div class="slice"></div>
+          <div class="slice"></div>
+          <div class="slice"></div>
+        </div>
+
+      </nav>
+
+
+      <section class="section-hero">
+
+        <div class="hero-gauche">
+
+          <h1>La <strong>croissance</strong> <br> à portée de main </h1>
+
+          <p>Tout ce dont vous avez toujours rêvé pour votre entreprise. Nous sommes joignables 24h/24 , 7j/7 pour vous
+            garantir le meilleur service possible. <br><br> Commencez votre essai gratuit !</p>
+
+          <form>
+            <input type="text" id="adresseMail" placeholder="Adresse Mail">
+            <button type="submit">Commencer</button>
+          </form>
+
+
+        </div>
+
+
+        <div class="hero-droite">
+          <img src="https://cdn.discordapp.com/attachments/663431196746842114/852105326513618944/anim1.png"
+            alt="rocket maaan">
+        </div>
+
+      </section>
+      </div>
+    </div>
+  <main>
+    <div class="form">
+      <h1>Contact Us</h1>
+      <div id="alert" class="hide">Message sent!</div>
+      <form action="" id="contactForm">
+
+        <label for="name" class="formLable">Your Name</label>
+        <input type="text" id="name" name="name" class="formInput" placeholder="Enter your name" required>
+
+        <label for="email" class="formLable">Your Email</label>
+        <input type="email" id="email" name="email" class="formInput" placeholder="Enter your email" required>
+
+        <label for="message" class="formLable">Your Message</label>
+        <textarea id="message" name="message" class="formInput" rows="5" placeholder="Enter your message"
+          required></textarea>
+
+        <input type="submit" class="submitformBtn" value="Send Message">
+      </form>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="assets/apperance.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
